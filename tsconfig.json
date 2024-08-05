@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "Node16",
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "moduleResolution": "Node16",
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+
+  },
+  "paths": {
+    "canvas-sketch": [
+      "./src/types/canvas-sketch"
+    ]
+  }
+}

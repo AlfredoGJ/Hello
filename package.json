@@ -1,0 +1,22 @@
+{
+  "name": "haikode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "canvas-sketch-cli sketches/example.js --hot",
+    "start": "npx ts-node src/index.ts "
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "canvas-sketch-cli": "^1.11.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "canvas-sketch": "^0.7.7",
+    "canvas-sketch-types": "^1.1.2"
+  }
+}
